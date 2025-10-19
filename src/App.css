@@ -1,5 +1,5 @@
 header{
-  background-color: blue;
+ background: linear-gradient(to right top, #8fb3e8, #78a3e3, #6093dd, #4584d7, #1f74d1);
   color: white;
   font-size: 3rem;
   width: 100%;
@@ -13,3 +13,46 @@ header{
 .userhide{
   display: none;
 }
+.loginsection{
+  border: 1px solid black;
+  border-radius: 10px;
+ 
+  width: 40rem;
+  height: auto;
+  margin: auto;
+  margin-top: 10rem;
+}
+.loginh3{
+ 
+  margin: 2rem;
+}
+.para{
+ 
+ font-size:large ;
+ font-weight: bolder;
+  display: block;
+
+}
+
+.parant{
+  display: none;
+}
+.userpara {
+  display: block ;
+  margin: 5rem ;
+  margin-left: 1rem ;
+}
+#userid{
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+#loginbtn{
+  width: 100%;
+ 
+  padding: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(to right top, #8fb3e8, #78a3e3, #6093dd, #4584d7, #1f74d1);
+  color: white;
+}
+

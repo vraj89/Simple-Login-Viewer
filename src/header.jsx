@@ -10,7 +10,7 @@ function Header(){
     
         <header className='hwala' >
             <div >My app</div>
-            <div className='user ? userdisp:userhide'> {name}</div>
+            <div className={user?'userhide':'userdip'}> {name}</div>
 
         </header>
 

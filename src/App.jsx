@@ -3,6 +3,7 @@ import { createContext } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './header.jsx'
+import Hero from './herosection.jsx'
 import './App.css'
 
 export const mycontext=createContext();
@@ -15,6 +16,7 @@ function App() {
     <>
      <mycontext.Provider value={{name,setName,user,setUser}}>
        <Header></Header>
+       <Hero></Hero>
      </mycontext.Provider>
      
       
