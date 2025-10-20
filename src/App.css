@@ -55,4 +55,16 @@ header{
   background: linear-gradient(to right top, #8fb3e8, #78a3e3, #6093dd, #4584d7, #1f74d1);
   color: white;
 }
+.profilebox{
 
+    border: 1px solid black;
+  border-radius: 10px;
+ 
+  width: 40rem;
+  height: auto;
+  margin: auto;
+  margin-top: 10rem;
+}
+.pfo{
+  display: none;
+}

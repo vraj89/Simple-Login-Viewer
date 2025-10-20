@@ -16,8 +16,8 @@ function Hero(){
    
     }
     return(
-          
-        <div className="loginsection  ">
+          <>
+        <div className="loginsection ">
           <div>
              <div className="text-start">
               <h3 className="loginh3">LOGIN</h3>
@@ -34,9 +34,25 @@ function Hero(){
       <br />
       <button onClick={setwala} id="loginbtn">Login</button>
     </div>
-  </div>
-</div>
 
+   
+  </div>
+   
+</div>
+   <div className="profilebox">
+     
+     <div className="text-start m-5">
+      <h3>Profile</h3>
+     </div>
+     
+     <div className=" user ? profilesection:pfo m-5 ">
+       <div>
+        <h4 > user name:{name}</h4>
+       </div>
+     </div>
+
+   </div>
+</>
         
     )
 }
